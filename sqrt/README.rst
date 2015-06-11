@@ -26,10 +26,10 @@ Structure of the Model
 
 The model created has 1 input node, 10 hidden nodes and one output node.
 
-The output from the hidden nodes has a ``Tanh`` non-linearity applied, and those (bounded) 
-values are linearly combined to sum to the output value 
-(which has an ``Identity`` 'non-linearity' applied - i.e. it is a linear
-combination of the values at the hidden layer).
+The (internal) outputs from the hidden nodes have ``Tanh`` non-linearities 
+applied.  Then, these (bounded) values are linearly combined to sum 
+to the output value, which in turn has an ``Identity`` 'non-linearity' applied - 
+i.e. it is simply a linear combination of the values at the hidden layer.
 
 
 Structure of the Training
@@ -44,5 +44,6 @@ Structure of the Testing
 
 The network is periodically tested on examples in the ``range(100,200)`` -
 so it shouldn't be surprising that the testing error isn't driven to 
-zero with the training data, since the are over different ranges of inputs.
+zero with the training data, since the learning and testing 
+are over different (and disjoint) ranges of inputs.
 
