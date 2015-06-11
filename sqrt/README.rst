@@ -1,7 +1,7 @@
-Learn to approximate the square root function
+Learning to approximate the square root function
 ================================================================
 
-Super-basic example, mainly for testing purposes.
+This is a super-basic example, mainly for testing purposes.
 
 This script trains a tiny network to compute the square root of its input.
 
@@ -24,7 +24,8 @@ reading from disk.
 Structure of the Model
 --------------------------
 
-The model created has 1 input node, 10 hidden nodes and one output node.
+The model being used is a standard Multi-Layer Perceptron (``MLP``),
+with 1 input node, 10 hidden nodes and 1 output node.
 
 The (internal) outputs from the hidden nodes have ``Tanh`` non-linearities 
 applied.  Then, these (bounded) values are linearly combined to sum 
