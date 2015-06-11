@@ -18,7 +18,7 @@ To pick the simplest example first, one this repository has been downloaded,
 
     python -m sqrt --num-batches 1000 sqrt/saved_state
 
-.. note::
+.. tip::
    Executing this command line will run the code in the ``sqrt`` 
    module : specifically the command-line argument parser in 
    the ``sqrt/__main__.py`` file.  Having the main entry point here is 
