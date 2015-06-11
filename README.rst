@@ -31,9 +31,8 @@ launching command as simple as possible.
 
 Understanding the examples
 ---------------------------
-The bulk of the ``blocks``code consists of 'plain functions' that are 
-launched from the ``main()`` function in each 
-folder ``EXAMPLE_XYZ/__init__.py``.
+The bulk of the ``blocks`` code consists of 'plain functions' that are 
+launched from the ``main()`` function in each folder : ``EXAMPLE-NAME/__init__.py``.
 
 We're currently working on getting better documentation coverage of the 
 examples, and GitHub will helpfully display the contents of each 
@@ -43,4 +42,4 @@ There's also certainly useful information in the ``blocks`` and ``fuel``
 documentation :
 
 * `Blocks documentation <http://blocks.readthedocs.org/>`_
-* `Fuel documentation <http://fuel.readthedocs.org/`_
+* `Fuel documentation <http://fuel.readthedocs.org/>`_
