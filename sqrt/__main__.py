@@ -7,7 +7,7 @@ This script trains a tiny network to compute square roots.
 import argparse
 import logging
 
-from . import main
+from sqrt import main
 
 if __name__ == "__main__":
     logging.basicConfig(
